@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Simon.css";
+import "./simon.css";
 
 function Simon() {
   const colors = ["yellow", "red", "purple", "green"];
