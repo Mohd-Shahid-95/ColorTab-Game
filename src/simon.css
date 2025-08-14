@@ -148,23 +148,20 @@ h1 {
   margin: 0 auto 20px auto;
 }
 @media (max-width: 600px) {
-  html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: #0d2b3e; /* match your game background */
-  }
-
   body {
-    min-height: 100svh; /* mobile-safe full height */
-  }
-
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #1f4037);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  color: white;
+  text-align: center;
+}
   .board {
     grid-template-columns: repeat(2, 120px);
     grid-template-rows: repeat(2, 120px);
     gap: 18px;
   }
-
   .btn {
     width: 120px;
     height: 120px;
