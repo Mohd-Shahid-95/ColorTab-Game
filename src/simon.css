@@ -108,7 +108,7 @@ h2 {
   font-weight: bold;
   color: white;
   margin-bottom: 25px;
-  text-shadow: 2px 2px 15px black;
+  text-shadow: 2px 2px 15px white;
   animation: blink 1s infinite;
 }
 h1 {
@@ -171,4 +171,6 @@ h1 {
   50% { opacity: 1; }
   100% { opacity: 0.6; }
 }
-
+.level{
+  font-weight: bold;
+}

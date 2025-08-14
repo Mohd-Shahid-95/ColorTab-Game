@@ -122,8 +122,8 @@ function Simon() {
         </div>
       ) : (
         <>
-          <h1>Simon Game</h1>
-          <h2>
+          <h1>ColorTabGame</h1>
+          <h2 className="level">
             {started
               ? `Level: ${level} | Highest: ${highest}`
               : "Press Start to Play"}
