@@ -148,7 +148,7 @@ h1 {
   margin: 0 auto 20px auto;
 }
 @media (max-width: 600px) {
-  .board {
+  body {
     grid-template-columns: repeat(2, 120px);
     grid-template-rows: repeat(2, 120px);
     gap: 18px;
