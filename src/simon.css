@@ -135,7 +135,7 @@ h2 {
 
 /* Footer Name */
 .footer-name {
-  font-size: 2rem;
+  font-size: 1rem;
   color: white;
   text-shadow: 0 0 6px #00ffcc;
   text-align: center;
@@ -203,7 +203,7 @@ h2 {
     border-radius: 50%; /* 🔵 circular buttons on mobile */
   }
   .rules { font-size: 0.8rem; padding-left: 15px; }
-  .footer-name { font-size: 0.5rem; }
+  .footer-name { font-size: 2rem; }
 }
 
 @media (max-width: 400px) {
