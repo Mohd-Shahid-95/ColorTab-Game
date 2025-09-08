@@ -154,7 +154,6 @@ function Simon() {
               <li>Every correct round increases the level.</li>
               <li>If you make a mistake, the game is over.</li>
           </ul>
-          <h6 className="footer-name">✨Shahid khan & ✨Khan MD</h6>
     </div>
   );
 }
